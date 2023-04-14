@@ -74,7 +74,9 @@ int handleArgs(int argc,char *argv[]){
         if(argc <= 2){
             return run("");
         }
-        return run(argv[2]);
+        else{
+            return run(argv[2]);
+        }
     }
     else if(strcmp(argv[1],CONSOLE_HANDLER_HELP) == 0){
         printHelp();
@@ -86,7 +88,9 @@ int handleArgs(int argc,char *argv[]){
         if(argc <= 2){
             printManual(CONSOLE_HANDLER_INDEX);
         }
-        printManual(argv[2]);
+        else{
+            printManual(argv[2]);
+        }
     }
     else{
         unknownArgument(argv[1]);
