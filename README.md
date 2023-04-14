@@ -1,5 +1,5 @@
 # CConsoleHandler
-Handle C console applications with ease, with this simple header file!
+Handle C console applications with ease, with this simple header file!<br>
 ![image](https://user-images.githubusercontent.com/64809360/232113399-ff8e97ae-6652-4319-aacf-47a3e00e816c.png)
 
 ![image](https://user-images.githubusercontent.com/64809360/232112894-faf05832-7d59-494c-9513-ce324380d6b7.png)
